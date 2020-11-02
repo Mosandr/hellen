@@ -1,0 +1,26 @@
+.logo {
+  @media screen and (max-width: $tablet - 1px) {
+    &--dark {
+      .logo__img-white {
+        display: none;
+      }
+    }
+
+    &--white {
+      .logo__img-dark {
+        display: none;
+      }
+    }
+    &__text {
+      display: none;
+    }
+
+    &__icon {
+      display: none;
+    }
+
+    &__subtitle {
+      display: none;
+    }
+  }
+}

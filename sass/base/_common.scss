@@ -1,5 +1,23 @@
-body{
-    font-family: $main-font;
-    width: 1680px;
-    margin: 0 auto;
-   }
+body {
+  font-family: $main-font;
+  font-style: normal;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
