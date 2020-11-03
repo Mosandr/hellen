@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  padding: 14px;
+  min-width: 260px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $title-dark-theme-color;
+  background: $accent-color;
+
+  border: 2px solid $accent-color;
+
+  &--transparent {
+    background: transparent;
+    color: $accent-color;
+  }
+}

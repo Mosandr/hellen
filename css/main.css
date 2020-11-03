@@ -511,4 +511,99 @@ img {
     display: none;
   }
 }
+
+.button {
+  display: inline-block;
+  padding: 14px;
+  min-width: 260px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff6b09;
+  border: 2px solid #ff6b09;
+}
+
+.button--transparent {
+  background: transparent;
+  color: #ff6b09;
+}
+
+.header__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__call-btn {
+  display: none;
+}
+
+.menu-btn {
+  display: block;
+  padding: 0px;
+  background: transparent;
+  border: none;
+}
+
+.modal-menu {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 568px;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  opacity: 1;
+  background: rgba(17, 21, 24, 0.9);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu__close-btn {
+  position: absolute;
+  display: block;
+  padding: 0px;
+  line-height: 15px;
+  top: 37px;
+  right: 20px;
+  background: transparent;
+  border: none;
+}
+
+.modal-menu__call-btn {
+  margin-top: 45px;
+}
+
+.modal-menu.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navigation {
+  margin-top: 50px;
+  text-align: start;
+}
+
+.navigation__link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.navigation__link--current {
+  color: #ff6b09;
+}
+
+.navigation__link:hover, .navigation__link:focus {
+  color: #ff6b09;
+}
 /*# sourceMappingURL=main.css.map */

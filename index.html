@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-wrapper container">
+        <div class="header__wrapper container">
             <a href="" class="logo link logo--dark">
                 <img class="logo__img-dark" alt="логотип кампании" src="./images/svg/logo-mob-dark.svg">
                 <img class="logo__img-white" alt="логотип кампании" src="./images/svg/logo-mob-white.svg">
@@ -17,21 +17,44 @@
                     <use></use>
                 </svg>
                 <span class="logo__text">EN</span>
-                <span class="logo__subtitle">Адский английский</span>  
+                <span class="logo__subtitle">Адский английский</span>
             </a>
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Программы обучения</a></li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">О нас</a></li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Варианты обучения</a></li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Контакты</a></li>
-                </ul>
-            </nav>
-            <button class="button" type="button">Консультация по телефону</button>
+            <div class="modal-menu container is-hidden" data-modal>
+                <a href="" class="logo link logo--white">
+                    <img class="logo__img-dark" alt="логотип кампании" src="./images/svg/logo-mob-dark.svg">
+                    <img class="logo__img-white" alt="логотип кампании" src="./images/svg/logo-mob-white.svg">
+                    <span class="logo__text">Hell</span>
+                    <svg class="logo__icon" width="22" height="30">
+                        <use></use>
+                    </svg>
+                    <span class="logo__text">EN</span>
+                    <span class="logo__subtitle">Адский английский</span>
+                </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list list">
+                            <li class="navigation__item">
+                                <a href="./index.html" class="navigation__link link">Программы обучения</a></li>
+                            <li class="navigation__item">
+                                <a href="./index.html" class="navigation__link navigation__link--current link">О нас</a></li>
+                            <li class="navigation__item">
+                                <a href="./index.html" class="navigation__link link">Варианты обучения</a></li>
+                            <li class="navigation__item">
+                                <a href="./index.html" class="navigation__link link">Контакты</a></li>
+                        </ul>
+                    </nav>              
+                <button class="modal-menu__call-btn button button--transparent link" type="button">Консультация по телефону</button>
+                <button class="modal-menu__close-btn" type="button" data-modal-close >
+                    <svg class="modal-menu__close-icon" width="15" height="15" aria-label="переключатель мобильного меню">
+                        <use href="./images/svg/sprite.svg#icon-cross"></use>
+                    </svg>
+                </button>
+            </div>
+            <button class="header__call-btn button link" type="button">Консультация по телефону</button>
+            <button class="menu-btn" type="button" data-modal-open>
+                <svg class="menu-btn__icon" width="20" height="12" aria-label="переключатель мобильного меню">
+                    <use href="./images/svg/sprite.svg#icon-menu"></use> 
+                </svg>
+            </button>
         </div>
     </header>
     <main>
@@ -382,7 +405,7 @@
             </ul>
         </section>
         <!-- Registration -->
-        <form action="" class="registration">
+        <form action="" class="registration">            
             <h2 class="registration__title">
                 Регистрация на бесплатную телефонную консультацию по нюансам ЗНО
                 по английскому языку
@@ -407,5 +430,6 @@
         </a>
         <p class="copy">&copy Все права защищены, 2019</p>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

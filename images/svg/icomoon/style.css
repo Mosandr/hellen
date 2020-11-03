@@ -1,0 +1,72 @@
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-menu {
+  width: 1.5em;
+}
+
+.icon-arrow-left {
+  width: 1.6875em;
+}
+
+.icon-arrow-right {
+  width: 1.6875em;
+}
+
+.icon-audio-book {
+  width: 1.2080078125em;
+}
+
+.icon-book {
+  width: 1.4375em;
+}
+
+.icon-fin-warranty {
+  width: 0.9677734375em;
+}
+
+.icon-fire {
+  width: 0.75em;
+}
+
+.icon-list-chek {
+  width: 1.2861328125em;
+}
+
+.icon-mobile-learn {
+  width: 1.021484375em;
+}
+
+.icon-modern-methodology {
+  width: 0.9677734375em;
+}
+
+.icon-note {
+  width: 0.9580078125em;
+}
+
+.icon-student {
+  width: 0.8330078125em;
+}
+
+.icon-student-bordered {
+  width: 0.9677734375em;
+}
+
+.icon-support {
+  width: 1.0205078125em;
+}
